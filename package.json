@@ -1,6 +1,6 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "lonely-socket",
+  "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
