@@ -3,6 +3,7 @@ const io = require('socket.io')(server, {
   cors: {
     origin: '*',
   },
+  //path: 'chat',
 });
 
 const PORT = 3001;
