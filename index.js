@@ -1,8 +1,9 @@
 const server = require('http').createServer();
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'https://react-3wtj9r.stackblitz.io',
+    origin: 'https://*.stackblitz.io',
     //path: '/socket',
+    methods: ['GET', 'POST'],
   },
 });
 
