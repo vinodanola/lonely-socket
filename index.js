@@ -3,11 +3,6 @@ const io = require('socket.io')(server, {
   cors: {
     origin: '*',
   },
-  //transports: ['websocket'],
-  //path: 'chat',
-  //withCredentials: false,
-  //rejectUnauthorized: false,
-  //cors_allowed_origins="*"
 });
 
 const PORT = 3001;
