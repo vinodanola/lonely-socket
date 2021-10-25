@@ -1,7 +1,8 @@
-const server = require('http').createServer();
+const server = require('ws').createServer();
 const io = require('socket.io')(server, {
   cors: {
     origin: '*',
+    path: '/socket',
   },
 });
 
