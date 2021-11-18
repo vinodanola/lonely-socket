@@ -4,8 +4,8 @@ const io = require('socket.io')(server, {
     origin: 'https://*.stackblitz.io',
     //path: '/socket',
     methods: ['GET', 'POST'],
-    transports: ['websocket'],
   },
+  transports: ['websocket'],
 });
 
 const PORT = 3001;
